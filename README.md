@@ -5,7 +5,8 @@
 
 ## Solution Arcitecture Overview
 
-![Solution-Arcitecture](https://github.com/user-attachments/assets/46f762c5-644c-4783-a2ef-06834d102dc6)
+![Solution-Arcitecture](https://github.com/user-attachments/assets/30912068-c305-486e-83d0-8bb1a07fa9f0)
+
 
 ## Data Ingestion
 Two datasets were ingested from the ECDC website, the cases and deaths data, and hospital admissions data.
