@@ -1,0 +1,33 @@
+{
+    "name": "weekly hospital admissions pl",
+    "properties": {
+        "activities": [
+            {
+                "name": "Weekly Hospital Admission Data",
+                "type": "DatabricksNotebook",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "notebookPath": "/Users/zubacm125@gmail.com/Weekly Hospital Admissions"
+                },
+                "linkedServiceName": {
+                    "referenceName": "AzureDatabricks1",
+                    "type": "LinkedServiceReference"
+                }
+            }
+        ],
+        "folder": {
+            "name": "ECDC"
+        },
+        "annotations": [],
+        "lastPublishTime": "2024-11-19T03:05:09Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}
