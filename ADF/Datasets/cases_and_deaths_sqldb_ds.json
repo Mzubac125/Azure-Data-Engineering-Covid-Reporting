@@ -1,0 +1,36 @@
+{
+    "name": "cases_and_deaths",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureSqlDatabase1",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "country",
+                "type": "varchar"
+            },
+            {
+                "name": "population",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "daily_count",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "date",
+                "type": "date"
+            }
+        ],
+        "typeProperties": {
+            "schema": "covid_reporting",
+            "table": "cases_and_deaths"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

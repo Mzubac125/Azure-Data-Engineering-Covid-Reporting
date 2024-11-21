@@ -1,0 +1,45 @@
+{
+    "name": "daily_hospital_admissions_sqldb",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureSqlDatabase1",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "country",
+                "type": "varchar"
+            },
+            {
+                "name": "date",
+                "type": "date"
+            },
+            {
+                "name": "week",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "week_start_date",
+                "type": "date"
+            },
+            {
+                "name": "daily_icu_occupancy",
+                "type": "float",
+                "precision": 15
+            },
+            {
+                "name": "daily_hospital_occupancy",
+                "type": "float",
+                "precision": 15
+            }
+        ],
+        "typeProperties": {
+            "schema": "covid_reporting",
+            "table": "daily_hospital_admissions"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
