@@ -31,6 +31,10 @@ Steps:
 * Export both tables to the data lake
 * Create another activity in ADF with triggers that will run the Databricks notebooks
 
+#### Cases and Deaths
+* Filter for only European countries
+* Get rid of any unneeded columns
+
 ## Create an Azure SQL Database and copy over the transformed Covid-19 data from the Data Lake
 ![sql db create table](https://github.com/user-attachments/assets/ff556cbe-7888-4fa1-88c7-94367d061470)
 ![sql database pl copy](https://github.com/user-attachments/assets/0a80819f-c7fa-48b3-887d-12ad1961d42a)
