@@ -42,3 +42,4 @@ Steps:
 ## Reporting with Power BI
 * Create a connection from Azure SQL to Power BI
 * Create Dashboard that analyzes the Covid-19 data we have gathered
+<img width="828" alt="PowerBI" src="https://github.com/user-attachments/assets/02838751-81af-4c68-986f-188d4911a289">
